@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'com.epam.svitlana_kryvchycova'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+    implementation 'org.seleniumhq.selenium:selenium-java:4.4.0'
+    implementation 'io.github.bonigarcia:webdrivermanager:5.2.3'
+}
